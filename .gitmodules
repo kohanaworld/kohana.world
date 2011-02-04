@@ -7,9 +7,3 @@
 [submodule "modules/userguide"]
 	path = modules/userguide
 	url = http://github.com/kohana/userguide.git
-[submodule "modules/translations"]
-	path = modules/translations
-	url = git://github.com/russiankohana/i18n.git
-[submodule "modules/comingsoon"]
-	path = modules/comingsoon
-	url = git://github.com/russiankohana/kohanawold-comingsoon.git
