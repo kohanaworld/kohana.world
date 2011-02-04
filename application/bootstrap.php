@@ -100,12 +100,13 @@ Kohana::modules(array(
 	// 'auth'       => MODPATH.'auth',       // Basic authentication
 	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
-	 'database'   => MODPATH.'database',   // Database access
+	 'database'     => MODPATH.'database',   // Database access
 	// 'image'      => MODPATH.'image',      // Image manipulation
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
-	 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
-	 'translations'  => MODPATH.'translations',  // Russian i18n
+	 'userguide'    => MODPATH.'userguide',  // User guide and API documentation
+	 'translations' => MODPATH.'translations',  // Russian i18n
+	 'comingsoon'   => MODPATH.'comingsoon',  // Kohana-World.com Coming Soon page
 	));
 
 /**

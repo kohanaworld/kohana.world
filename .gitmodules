@@ -10,3 +10,6 @@
 [submodule "modules/translations"]
 	path = modules/translations
 	url = git://github.com/russiankohana/i18n.git
+[submodule "modules/comingsoon"]
+	path = modules/comingsoon
+	url = git://github.com/russiankohana/kohanawold-comingsoon.git
