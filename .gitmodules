@@ -10,3 +10,6 @@
 [submodule "modules/jelly"]
 	path = modules/jelly
 	url = git://github.com/russiankohana/kohana-jelly.git
+[submodule "modules/modules"]
+	path = modules/modules
+	url = git://github.com/russiankohana/kw-modules.git
