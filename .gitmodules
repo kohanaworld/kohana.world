@@ -7,3 +7,6 @@
 [submodule "modules/userguide"]
 	path = modules/userguide
 	url = http://github.com/kohana/userguide.git
+[submodule "modules/jelly"]
+	path = modules/jelly
+	url = git://github.com/russiankohana/kohana-jelly.git
