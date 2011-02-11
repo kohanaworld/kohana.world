@@ -19,3 +19,6 @@
 [submodule "modules/i18n"]
 	path = modules/i18n
 	url = git://github.com/russiankohana/kw-i18n.git
+[submodule "modules/github"]
+	path = modules/github
+	url = git://github.com/ahutchings/kohana-github.git
