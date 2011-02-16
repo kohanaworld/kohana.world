@@ -9,7 +9,7 @@
 	url = git://github.com/kohana/userguide.git
 [submodule "modules/translations"]
 	path = modules/translations
-	url = git://github.com/russiankohana/kw-i18n.git
+	url = git://github.com/kohana-world/kw-i18n.git
 [submodule "modules/comingsoon"]
 	path = modules/comingsoon
-	url = git://github.com/russiankohana/kw-comingsoon.git
+	url = git://github.com/kohana-world/kw-comingsoon.git
