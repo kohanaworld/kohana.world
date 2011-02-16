@@ -9,16 +9,16 @@
 	url = git://github.com/kohana/userguide.git
 [submodule "modules/jelly"]
 	path = modules/jelly
-	url = git://github.com/russiankohana/kohana-jelly.git
+	url = git://github.com/kohana-world/kohana-jelly.git
 [submodule "modules/modules"]
 	path = modules/modules
-	url = git://github.com/russiankohana/kw-modules.git
+	url = git://github.com/kohana-world/kw-modules.git
 [submodule "modules/core"]
 	path = modules/core
-	url = git://github.com/russiankohana/kw-core.git
+	url = git://github.com/kohana-world/kw-core.git
 [submodule "modules/i18n"]
 	path = modules/i18n
-	url = git://github.com/russiankohana/kw-i18n.git
+	url = git://github.com/kohana-world/kw-i18n.git
 [submodule "modules/github"]
 	path = modules/github
 	url = git://github.com/ahutchings/kohana-github.git
