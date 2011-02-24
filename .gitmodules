@@ -22,3 +22,6 @@
 [submodule "modules/github"]
 	path = modules/github
 	url = git://github.com/ahutchings/kohana-github.git
+[submodule "modules/pagination"]
+	path = modules/pagination
+	url = git://github.com/kohana/pagination.git
