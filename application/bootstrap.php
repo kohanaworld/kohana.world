@@ -81,6 +81,7 @@ if (getenv('KOHANA_ENV') !== FALSE)
  */
 Kohana::init(array(
 	'base_url'   => '/',
+	'index_file' => FALSE,
 ));
 
 /**
@@ -107,6 +108,7 @@ Kohana::modules(array(
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 	'jelly'      => MODPATH.'jelly',
 	'github'     => MODPATH.'github',
+	'pagination' => MODPATH.'pagination',
 	'kw-core'    => MODPATH.'core',
 	'kw-modules' => MODPATH.'modules',
 	));
