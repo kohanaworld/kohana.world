@@ -1,0 +1,149 @@
+html, body {
+	height: 100%;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size:14px;
+}
+
+a {color: #067ac8; text-decoration:none}
+a:hover {text-decoration:underline}
+
+#main {
+	position: relative;
+	height: 100%;
+	min-height: 100%;
+	width:1000px;
+	margin:0 auto 0;
+}
+
+html>body #main {
+	height: auto;
+}
+
+#footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top:1px solid #E5E5E5;
+	color:#666;
+}
+
+#footer, #empty {
+	height: 50px;
+}
+
+#top, #center{
+	display:inline-block;
+	width:100%;
+	margin-top:20px;
+}
+
+#center {
+	margin-top:50px;
+}
+
+#menu_top {
+	height: 55px;
+	width:100%;
+	background:url('/media/i/bg/menu_top_sprite.png') 0 -165px repeat-x;
+}
+
+#menu_top .corner_left, #menu_top .corner_right {
+	background-color:#fff;
+	background-repeat:no-repeat;
+	width: 4px;
+	display:block;
+	height:55px!important;
+}
+
+#menu_top .corner_left {
+	background-image:url('/media/i/bg/menu_top_sprite.png');
+	background-position:0 -55px;
+	float:left;
+}
+#menu_top .corner_right {
+	background-image:url('/media/i/bg/menu_top_sprite.png');
+	background-position:-5px -55px;
+	float:right;
+}
+
+#menu_top .links {
+	display:block;
+	float:left;
+	list-style:none;
+}
+
+#menu_top .links li {
+	background:url('/media/i/bg/menu_top_sprite.png') top right no-repeat;
+	display:block;
+	float:left;
+	width:160px;
+}
+
+#menu_top .links a {
+	display:block;
+	height:37px;
+	margin: 0 1px 0 -1px;
+	padding: 18px 20px 0;
+	vertical-align:middle;
+	color:#fff;
+	text-align:center;
+	width: 120px;
+}
+#menu_top .links a:hover {
+	text-decoration:none;
+	background-image:url('/media/i/bg/menu_top_sprite.png');
+	background-position:0 -110px;
+	background-repeat:repeat-x;
+}
+
+#logo {
+	display:block;
+	float:left;
+	margin-top:6ex
+}
+
+#search {
+	display:block;
+	float:right;
+	border: 3px solid #F2F2F2;
+	padding: 3ex;
+	margin-top: 6ex
+}
+#search input {
+	border:1px solid #D2D9DC;
+	width: 30ex;
+	margin-right:1.5ex;
+	font-size:3ex;
+	color: #4D4D4D;
+}
+
+#search button {
+	background: #fff;
+	border:1px solid #D2D9DC;
+	padding: 0 3ex;
+	height:32px;
+	color: #4D4D4D;
+	font-weight:bold;
+}
+
+#sidebar {
+	display:inline-block;
+	float:right;
+	width:250px;
+}
+
+#content {
+	display:inline-block;
+	float:left;
+	width:750px;
+}
+
+#footer .column {
+	display:block;
+	float:left;
+	width:33%;
+	margin: 3ex 0;
+	text-align:center;
+
+}

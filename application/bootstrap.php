@@ -101,16 +101,17 @@ Kohana::modules(array(
 	// 'auth'       => MODPATH.'auth',       // Basic authentication
 	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
-	'database'   => MODPATH.'database',   // Database access
+	'database'     => MODPATH.'database',   // Database access
 	// 'image'      => MODPATH.'image',      // Image manipulation
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
-	'jelly'      => MODPATH.'jelly',
-	'github'     => MODPATH.'github',
-	'pagination' => MODPATH.'pagination',
-	'kw-core'    => MODPATH.'core',
-	'kw-modules' => MODPATH.'modules',
+	'jelly'        => MODPATH.'jelly',
+	'github'       => MODPATH.'github',
+	'pagination'   => MODPATH.'pagination',
+	'static-files' => MODPATH.'static-files',
+	'kw-core'      => MODPATH.'core',
+	'kw-modules'   => MODPATH.'modules',
 	));
 
 /**
@@ -119,6 +120,6 @@ Kohana::modules(array(
  */
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
-		'controller' => 'welcome',
+		'controller' => 'home',
 		'action'     => 'index',
 	));
