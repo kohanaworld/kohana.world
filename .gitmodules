@@ -25,3 +25,6 @@
 [submodule "modules/pagination"]
 	path = modules/pagination
 	url = git://github.com/kohana/pagination.git
+[submodule "modules/static-files"]
+	path = modules/static-files
+	url = git://github.com/kohana-world/kohana-static-files.git
