@@ -2,9 +2,9 @@
 $mod_view = View::factory('frontend/module/item')->bind('module', $module);
 ?>
 <h2><?php echo __("module list") ?></h2>
-<ul>
+<div class="module_list">
 	<?php foreach($modules as $module): ?>
-		<li><?php echo $mod_view ?></li>
+		<div class="module"><?php echo $mod_view ?></div>
 	<?php endforeach ?>
-</ul>
-<?php echo $pagination ?>
+</div>
+<?php //echo $pagination ?>
