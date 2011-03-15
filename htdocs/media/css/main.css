@@ -147,3 +147,18 @@ html>body #main {
 	text-align:center;
 
 }
+
+.module {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+.module_head, .module_desc {
+    margin-bottom: 10px;
+}
+
+.module_desc {
+    padding-left: 10px;
+}
