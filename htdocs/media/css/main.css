@@ -148,9 +148,26 @@ html>body #main {
 
 }
 
+.pagination{
+    text-align: center;
+}
+
+.pagination a {
+    border-style: solid;
+	border-width: 1px;
+    border-color: #E1E1E1;
+    margin: 1px;
+}
+
+.pagination strong {
+    background-color: blue;
+    color: #ffffff;
+}
+
 .module {
     border-bottom-style: dotted;
     border-bottom-width: 1px;
+	border-color: #e1e1e1;
     margin: 10px;
     padding-bottom: 5px;
 }
