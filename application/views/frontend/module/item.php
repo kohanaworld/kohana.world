@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');?>
 <div class="module_head">
-	<div style="font-size:1.7em">
+	<div class="module_title">
 				<?php echo html::anchor(
 			Route::url('modules', array(
 				'developer' => $module->developer->username
@@ -13,6 +13,11 @@
 				'module' => $module->name
 			)),
 				$module->name);
+		?>
+	</div>
+	<div class="module_create">
+		<?php
+			echo date('d-M-Y',$module->created_at);
 		?>
 	</div>
 </div>
