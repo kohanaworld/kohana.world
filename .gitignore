@@ -1,3 +1,4 @@
 .idea
 application/config/database.php
 htdocs/media/cache
+/www
