@@ -58,11 +58,11 @@ for ($i = $n7; $i <= $n8; $i++)
 <p class="pagination">
 
 	<?php if ($first_page !== FALSE): ?>
-		<a href="<?php echo HTML::chars($page->url($first_page)) ?>" rel="first"><?php echo __('First') ?></a>
+		<a href="<?php echo HTML::chars($page->url($first_page)) ?>" rel="first"><<</a>
 	<?php endif ?>
 
 	<?php if ($previous_page !== FALSE): ?>
-		<a href="<?php echo HTML::chars($page->url($previous_page)) ?>" rel="prev"><?php echo __('Previous') ?></a>
+		<a href="<?php echo HTML::chars($page->url($previous_page)) ?>" rel="prev"><</a>
 	<?php endif ?>
 
 	<?php foreach ($links as $number => $content): ?>
@@ -76,11 +76,11 @@ for ($i = $n7; $i <= $n8; $i++)
 	<?php endforeach ?>
 
 	<?php if ($next_page !== FALSE): ?>
-		<a href="<?php echo HTML::chars($page->url($next_page)) ?>" rel="next"><?php echo __('Next') ?></a>
+		<a href="<?php echo HTML::chars($page->url($next_page)) ?>" rel="next">></a>
 	<?php endif ?>
 
 	<?php if ($last_page !== FALSE): ?>
-		<a href="<?php echo HTML::chars($page->url($last_page)) ?>" rel="last"><?php echo __('Last') ?></a>
+		<a href="<?php echo HTML::chars($page->url($last_page)) ?>" rel="last">>></a>
 	<?php endif ?>
 
 </p><!-- .pagination -->
