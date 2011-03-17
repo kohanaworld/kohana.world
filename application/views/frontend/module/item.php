@@ -13,12 +13,12 @@
 			)),
 				$module->name);
 	?>
-	<span><?php echo html::anchor('#','Ratings Data',array('title'=>__('Ratings Data')));?></span>
 	<?php
+		echo '<span title="'.__('Ratings Data').'">Ratings Data</span>';
 		echo '<ul>';
 		echo '<li class="mod_github">'.html::anchor($module->url,'&nbsp;',array('target'=>'_blank','title'=>'GitHub.com Info')).'</li>';
-		echo '<li class="mod_watch">'.html::anchor($module->url.'/watchers',$module->info->watchers,array('target'=>'_blank','title'=>__('Watchers'))).'</li>';
-		echo '<li class="mod_forks">'.html::anchor($module->url.'/network',$module->info->forks,array('target'=>'_blank','title'=>__('Forks'))).'</li>';
+		echo '<li class="mod_watch" title="'.__('Watchers').'">'.$module->info->watchers.'</li>';
+		echo '<li class="mod_forks" title="'.__('Forks').'">'.$module->info->forks.'</li>';
 		echo '</ul>';
 	?>
 </div>
