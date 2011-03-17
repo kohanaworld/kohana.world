@@ -13,7 +13,7 @@
 			)),
 				$module->name);
 	?>
-	<span>All Ratings Data</span>
+	<span><?php echo html::anchor('#','Ratings Data',array('title'=>__('Ratings Data')));?></span>
 	<?php
 		echo '<ul>';
 		echo '<li class="mod_github">'.html::anchor($module->url,'&nbsp;',array('target'=>'_blank','title'=>'GitHub.com Info')).'</li>';
@@ -30,7 +30,6 @@
 <div class="module_foot">
 	<?php
 		echo '<ul>';
-		echo '<li class="gst">Site Info : </li>';
 		echo '<li class="mod_cat">'.html::anchor('#','Category List',array('title'=>__('Category List'))).'</li>';
 		echo '<li class="mod_tag">'.html::anchor('#','Tag List',array('title'=>__('Tag List'))).'</li>';
 		echo '</ul>';

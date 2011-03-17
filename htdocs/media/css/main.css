@@ -199,9 +199,18 @@ html>body #main {
 }
 
 .module_head span {
-    border-style: groove;
-    border-width: 2px;
 	font-size: 0.7em;
+	padding-left: 19px;
+}
+
+.module_head span a {
+	display: inline-block;
+	padding-left: 19px;
+	background-image:url('/media/i/chart.png');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	height: 100%;
+	color: #000;
 }
 
 .module_desc {
@@ -214,18 +223,9 @@ html>body #main {
 	height: 17px;
 }
 
-li.gst {
-	background-color: #e1e1e1;
-}
-
 .module_head ul {
     font-size: 0.6em;
 	float: right;
-}
-
-.module_foot ul {
-    border-style: groove;
-    border-width: 2px;
 }
 
 .module_foot ul, .module_foot ul li, .module_head ul, .module_head ul li {
