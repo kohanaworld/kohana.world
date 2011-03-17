@@ -1,0 +1,98 @@
+.module {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+	border-color: #e1e1e1;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.module_head {
+    margin-bottom: 10px;
+	font-size: 1.7em;
+}
+
+.module_head ul {
+    font-size: 0.6em;
+	float: right;
+}
+
+.module_head ul, .module_head ul li {
+	display: inline-block;
+	height: 20px;
+}
+
+.module_head span {
+	font-size: 0.7em;
+	margin-left: 10px;
+	padding-left: 19px;
+	background-image:url('/media/i/chart.png');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #000;
+}
+
+li.mod_github a {
+	display: inline-block;
+	padding-left: 19px;
+	background-image:url('/media/i/chain.png');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	margin-right: 15px;
+	height: 100%;
+	color: #000;
+}
+
+li.mod_watch {
+	padding-left: 19px;
+	background-image:url('/media/i/eye.png');
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	height: 100%;
+}
+
+li.mod_forks {
+	padding-left: 19px;
+	background-image:url('/media/i/share.png');
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	height: 100%;
+}
+
+.module_desc {
+    padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.module_foot {
+    font-size: 0.8em;
+	height: 20px;
+}
+
+.module_foot ul, .module_foot ul li {
+    display: inline-block;
+	height: 100%;
+}
+
+.module_foot ul li {
+	margin-right: 4px;
+}
+
+li.mod_cat a {
+	display: inline-block;
+	padding-left: 19px;
+	background-image:url('/media/i/category.png');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	height: 100%;
+	color: #000;
+}
+
+li.mod_tag a {
+	display: inline-block;
+	padding-left: 19px;
+	background-image:url('/media/i/tag.png');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	height: 100%;
+	color: #000;
+}

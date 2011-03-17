@@ -1,0 +1,23 @@
+.pagination{
+    text-align: center;
+}
+
+.pagination a {
+    border-style: solid;
+	border-width: 1px;
+    border-color: #E1E1E1;
+	text-decoration: none;
+    margin: 1px;
+}
+
+.pagination a:hover {
+    background-color: #2e6ab1;
+    color: #ffffff;
+	text-decoration: none;
+    margin: 1px;
+}
+
+.pagination strong {
+    background-color: #2e6ab1;
+    color: #ffffff;
+}
