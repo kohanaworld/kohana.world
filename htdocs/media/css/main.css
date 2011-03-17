@@ -201,7 +201,6 @@ html>body #main {
 .module_head span {
     border-style: groove;
     border-width: 2px;
-	float: right;
 	font-size: 0.7em;
 }
 
@@ -219,23 +218,28 @@ li.gst {
 	background-color: #e1e1e1;
 }
 
+.module_head ul {
+    font-size: 0.6em;
+	float: right;
+}
+
 .module_foot ul {
     border-style: groove;
     border-width: 2px;
 }
 
-.module_foot ul, .module_foot ul li {
+.module_foot ul, .module_foot ul li, .module_head ul, .module_head ul li {
     display: inline-block;
 	height: 100%;
 }
 
 .module_foot ul li {
-	margin-right: 10px;
+	margin-right: 4px;
 }
 
 li.mod_github a {
 	display: inline-block;
-	padding-left: 20px;
+	padding-left: 19px;
 	background-image:url('/media/i/arrow-join.png');
 	background-repeat: no-repeat;
 	text-decoration: none;
@@ -245,7 +249,7 @@ li.mod_github a {
 
 li.mod_watch a {
 	display: inline-block;
-	padding-left: 20px;
+	padding-left: 19px;
 	background-image:url('/media/i/eye.png');
 	background-repeat: no-repeat;
 	text-decoration: none;
@@ -255,7 +259,7 @@ li.mod_watch a {
 
 li.mod_forks a {
 	display: inline-block;
-	padding-left: 20px;
+	padding-left: 19px;
 	background-image:url('/media/i/share.png');
 	background-repeat: no-repeat;
 	text-decoration: none;
@@ -265,7 +269,7 @@ li.mod_forks a {
 
 li.mod_cat a {
 	display: inline-block;
-	padding-left: 20px;
+	padding-left: 19px;
 	background-image:url('/media/i/category.png');
 	background-repeat: no-repeat;
 	text-decoration: none;
@@ -275,7 +279,7 @@ li.mod_cat a {
 
 li.mod_tag a {
 	display: inline-block;
-	padding-left: 20px;
+	padding-left: 19px;
 	background-image:url('/media/i/tag.png');
 	background-repeat: no-repeat;
 	text-decoration: none;
