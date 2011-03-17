@@ -18,5 +18,4 @@ class Controller_Home extends Controller_Template {
 		$this->template->content = Request::factory(Route::get('modules')->uri(array('action' => 'best')))->execute()->body();
 		$this->template->sidebar = Request::factory(Route::get('modules')->uri(array('action' => 'last')))->execute()->body();
 	}
-
 } // End Controller_Home
