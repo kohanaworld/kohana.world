@@ -14,7 +14,6 @@ class Controller_Home extends Controller_Template {
 	{
 		StaticCss::instance()->addCss('/media/css/module_list.css');
 		StaticCss::instance()->addCss('/media/css/pagination.css');
-		StaticJs::instance()->addJs('/media/js/libs/jquery-ui-1.8.10.custom.min.js');
 		$this->template->content = Request::factory(Route::get('modules')->uri())->execute()->body();
 		//$this->template->sidebar = Request::factory(Route::get('modules')->uri(array('action' => 'last')))->execute()->body();
 	}
