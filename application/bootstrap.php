@@ -114,6 +114,10 @@ Kohana::modules(array(
 	'static-files' => MODPATH.'static-files',
 	'kw-core'      => MODPATH.'core',
 	'kw-modules'   => MODPATH.'modules',
+	'kw-oauth'     => MODPATH.'oauth',
+	'kw-openid'    => MODPATH.'openid',
+	'kw-auth'      => MODPATH.'auth',
+	'kw-accounts'  => MODPATH.'accounts',
 	));
 
 /**
