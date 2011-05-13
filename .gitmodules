@@ -28,3 +28,15 @@
 [submodule "modules/static-files"]
 	path = modules/static-files
 	url = git://github.com/kohana-world/kohana-static-files.git
+[submodule "modules/openid"]
+	path = modules/openid
+	url = git://github.com/kohana-world/kw-openid.git
+[submodule "modules/oauth"]
+	path = modules/oauth
+	url = git://github.com/biakaveron/oauth.git
+[submodule "modules/auth"]
+	path = modules/auth
+	url = git://github.com/kohana-world/kw-auth.git
+[submodule "modules/accounts"]
+	path = modules/accounts
+	url = git://github.com/kohana-world/kw-accounts.git
