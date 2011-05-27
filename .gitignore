@@ -2,3 +2,4 @@
 application/config/database.php
 htdocs/media/cache
 /www
+htdocs/media/static
