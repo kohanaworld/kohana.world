@@ -40,3 +40,6 @@
 [submodule "modules/accounts"]
 	path = modules/accounts
 	url = git://github.com/kohana-world/kw-accounts.git
+[submodule "modules/debugtoolbar"]
+	path = modules/debugtoolbar
+	url = git://github.com/biakaveron/debug-toolbar.git

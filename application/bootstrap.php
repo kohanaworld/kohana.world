@@ -118,6 +118,7 @@ Kohana::modules(array(
 	'kw-openid'    => MODPATH.'openid',
 	'kw-auth'      => MODPATH.'auth',
 	'kw-accounts'  => MODPATH.'accounts',
+	'debug_toolbar'=> MODPATH.'debugtoolbar',
 	));
 
 /**
