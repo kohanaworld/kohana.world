@@ -1,5 +1,6 @@
 .idea
 application/config/database.php
+application/config/oauth.php
 htdocs/media/cache
 /www
 htdocs/media/static
