@@ -118,7 +118,7 @@ Kohana::modules(array(
 	'kw-auth'      => MODPATH.'auth',
 	'kw-accounts'  => MODPATH.'accounts',
 	'kw-modules'   => MODPATH.'modules',
-	'debug_toolbar'=> MODPATH.'debugtoolbar',
+	'debug_toolbar'=> Kohana::$is_cli ? FALSE : MODPATH.'debugtoolbar',
 	));
 
 /**
