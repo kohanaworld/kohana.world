@@ -1,2 +1,3 @@
-# kow-fast-index
- 
+# KohanaWorld Team
+
+### Fast index page
